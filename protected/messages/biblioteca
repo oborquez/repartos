@@ -1,0 +1,80 @@
+
+
+Modulo bilbioteca
+
+
+
+=> biblioteca_entradas
+=======================
+id
+id_user
+visitas
+titulo
+descripcion
+tipo (0 archivos,1 link, 2 video, 3 escrito)
+
+
+
+=> biblioteca_archivos
+=======================
+id
+id_entrada
+archivo
+extension
+
+
+
+=> biblioteca_links
+=======================
+id
+id_entrada
+link
+
+
+
+=> biblioteca_videos
+=======================
+id
+id_entrada
+video_link
+server
+
+
+
+=> biblioteca_escritos
+=======================
+id
+id_entrada
+escrito
+
+
+
+=> biblioteca_comentarios
+=======================
+id
+id_entrada
+fecha
+id_user
+comentario
+
+
+
+=> biblioteca_tags
+=======================
+id
+tag
+total
+
+=> biblioteca_entradas_tags
+=======================
+id
+id_entrada
+id_tag 
+
+
+
+
+
+
+
+
